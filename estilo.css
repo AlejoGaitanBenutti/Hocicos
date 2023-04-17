@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2? family= EB+Garamond & family= Josefin+Sans:wght@600 & family= Montserrat & family= Righteous & family= Signika:wght@ 300 & family= Sofia+Sans+Condensed & display=swap');
+*{
+    font-family: 'EB Garamond', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+
+}
+
+
+/* nav */
+ul{
+    list-style: none;
+}
+/* a nav */
+.ancla:hover{
+    color: #dc2c1c;
+}
+
+.mascotasSanas{
+    font-size: 240%;
+    font-weight: 600;
+    margin-bottom: 50px;
+    animation-duration: 6s;
+    animation-name: complete;
+    
+}
+/* seccion testimonio */
+.cajasTest:hover{
+    transform: scale(1.1) ;
+    transition-duration: 1.5s;
+    transition-delay: 0.3s;
+    
+
+}
+.backRojo{
+    background-color:#dc2c1c ;
+}
+.backGris{
+    background-color: #4c4c4c;
+}
+/* colores */
+.rojo{
+    color: #dc2c1c;
+
+}
+
+.amarillo{
+    color:#f5c70c;
+}
+.blanco{color: #f7f7f7
+}
+
+.gris{
+    color:#4c4c4c
+    ;
+}
+.boton{
+    width: 200px!important;
+    background-color: #dc2c1c;
+    border-color: transparent;
+}
+.boton:hover{
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+
+.cajas{
+    box-shadow: 8px 10px 7px #1f1d1d
+
+}
+
+.cajasTestimonios{
+    border: #dc2c1c solid 2px;
+}
+
+@media only screen and (max-width: 2000px) {
+    .gato {
+      width: 60%;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 400px){
+    .sectionMascotas{
+        flex-direction: column;
+    }
+  }
+
+@keyframes complete {
+    from{clip-path:polygon(0 0, 0 0,0 100%, 0% 100%);}
+    to{
+        clip-path: polygon(0 0, 100% 0,100% 100%, 0% 100%);
+    }
+    
+}
+
+/*  Servicios*/
+
+.boxService{
+
+    width: 100%;
+    border: #dc2c1c 3px solid;
+}
+.boxService:hover{
+
+    transform: scale(1.1);
+    transition: 2s ease;
+}
+.boxP{
+    font-size: large;
+    font-weight: 600;
+}
+
+
+/* PetShop */
+
+.prodShop{
+    animation-duration: 6s;
+    animation-name: complete;
+    
+}
+
+.h3Shop{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+    .contShop { flex-direction: column;
+      
+    }
+  }  
+
+@media only screen and (max-width: 1000px) {
+    .mainShop { flex-direction: column;
+                
+    }
+  }  
+
+@media only screen and (max-width: 500px) {
+    .header { flex-direction: column;
+            text-align: center;
+            gap: 20px;
+                
+    }
+  }  
+
+  
+
+/* Contacto */
+
+.contactP{
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 1050px) {
+    .contact { flex-direction: column;
+            text-align: center;
+            gap: 20px;
+                
+    }
+  }  
+
+
+/* Footer */
+
+
+@media only screen and (max-width: 650px) {
+    .foter { flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            
+                
+    }
+  }  
+
+  @media only screen and (max-width: 405px) {
+    .gato { width: 100%;
+            
+                
+    }
+  } 
+
+  @media only screen and (max-width: 470px) {
+    .testimonio { flex-direction: column;
+            
+                
+    }
+  } 
