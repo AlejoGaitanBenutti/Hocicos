@@ -85,7 +85,7 @@ ul{
 
   
 
-  @media only screen and (max-width: 400px){
+  @media only screen and (max-width: 440px){
     .sectionMascotas{
         flex-direction: column;
     }
@@ -131,15 +131,16 @@ ul{
 
 @media only screen and (max-width: 600px) {
     .contShop { flex-direction: column;
-      
+
     }
-  }  
+
+}  
 
 @media only screen and (max-width: 1000px) {
     .mainShop { flex-direction: column;
                 
     }
-  }  
+}  
 
 @media only screen and (max-width: 500px) {
     .header { flex-direction: column;
@@ -147,9 +148,9 @@ ul{
             gap: 20px;
                 
     }
-  }  
+}  
 
-  
+
 
 /* Contacto */
 
@@ -163,7 +164,7 @@ ul{
             gap: 20px;
                 
     }
-  }  
+}  
 
 
 /* Footer */
@@ -178,16 +179,13 @@ ul{
     }
   }  
 
-  @media only screen and (max-width: 405px) {
+  @media only screen and (max-width: 470px) {
     .gato { width: 100%;
             
                 
     }
-  } 
-
-  @media only screen and (max-width: 470px) {
-    .testimonio { flex-direction: column;
+  .testimonio { flex-direction: column;
             
                 
-    }
-  } 
+    }} 
+
